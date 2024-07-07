@@ -21,8 +21,67 @@ function Projects() {
 
 const ProjectDiv = styled.div`
     display: flex;
+    justify-content: center;
+    padding: 3em 0;
+    
+    @media screen and (max-width: 1280px) {
+        padding: 1em 0;
+    }
+    
+    @media screen and (max-width: 762px) {
+        display: block;
+        padding: 2em 0;
+    }
 `
 
-const Card = styled.div``
+const Card = styled.div`
+    width: 347px;
+    margin: 2em;
+    img {
+        height: 347px;
+        padding-bottom: 1em;
+    }
+    p {
+        font-size: 1.25rem;
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+    
+    @media screen and (max-width: 1280px) {
+        width: 250px;
+        margin: 1em 2em;
+        img {
+            height: 250px;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 962px) {
+        width: 200px;
+        margin: 2em;
+        img {
+            height: 200px;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+    
+    @media screen and (max-width: 762px) {
+        display: flex;
+        margin: 1em 0;
+        width: 100%;
+        img {
+            height: 50vw;
+        }
+        p{
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+`
 
 export default Projects
