@@ -1,8 +1,5 @@
-# React + Vite
+# Epic Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- An American video game and software developer and publisher based in Cary, North Carolina.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screen Shot of Home page](image.png)
